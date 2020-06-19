@@ -13,6 +13,18 @@
 		38C72EB2249C33B20053D5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EB1249C33B20053D5FD /* Assets.xcassets */; };
 		38C72EB5249C33B20053D5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EB3249C33B20053D5FD /* LaunchScreen.storyboard */; };
 		38C72EBD249C341A0053D5FD /* WunderlistSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C72EBC249C341A0053D5FD /* WunderlistSignInViewController.swift */; };
+		38C72ECA249C3C840053D5FD /* Alegreya-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC4249C37010053D5FD /* Alegreya-Bold.otf */; };
+		38C72ECB249C3C910053D5FD /* Alegreya-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC7249C37010053D5FD /* Alegreya-Black.otf */; };
+		38C72ECC249C3C960053D5FD /* Alegreya-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC8249C37010053D5FD /* Alegreya-BlackItalic.otf */; };
+		38C72ECD249C3C9B0053D5FD /* Alegreya-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC1249C37010053D5FD /* Alegreya-BoldItalic.otf */; };
+		38C72ECE249C3C9F0053D5FD /* Alegreya-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC5249C37010053D5FD /* Alegreya-Italic.otf */; };
+		38C72ECF249C3CA50053D5FD /* Alegreya-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC2249C37010053D5FD /* Alegreya-Regular.otf */; };
+		38C72ED0249C3CAC0053D5FD /* AlegreyaSC-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC3249C37010053D5FD /* AlegreyaSC-BlackItalic.otf */; };
+		38C72ED1249C3CB10053D5FD /* AlegreyaSC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC6249C37010053D5FD /* AlegreyaSC-Black.otf */; };
+		38C72ED2249C3CBD0053D5FD /* AlegreyaSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC9249C37010053D5FD /* AlegreyaSC-Bold.otf */; };
+		38C72ED3249C3CC10053D5FD /* AlegreyaSC-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EBE249C37000053D5FD /* AlegreyaSC-BoldItalic.otf */; };
+		38C72ED4249C3CC40053D5FD /* AlegreyaSC-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EBF249C37010053D5FD /* AlegreyaSC-Italic.otf */; };
+		38C72ED5249C3CC70053D5FD /* AlegreyaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38C72EC0249C37010053D5FD /* AlegreyaSC-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,18 +66,7 @@
 			children = (
 				38C72EA7249C33B10053D5FD /* Wunderlist2 */,
 				38C72EA6249C33B10053D5FD /* Products */,
-				38C72EC7249C37010053D5FD /* Alegreya-Black.otf */,
-				38C72EC8249C37010053D5FD /* Alegreya-BlackItalic.otf */,
-				38C72EC4249C37010053D5FD /* Alegreya-Bold.otf */,
-				38C72EC1249C37010053D5FD /* Alegreya-BoldItalic.otf */,
-				38C72EC5249C37010053D5FD /* Alegreya-Italic.otf */,
-				38C72EC2249C37010053D5FD /* Alegreya-Regular.otf */,
-				38C72EC6249C37010053D5FD /* AlegreyaSC-Black.otf */,
-				38C72EC3249C37010053D5FD /* AlegreyaSC-BlackItalic.otf */,
-				38C72EC9249C37010053D5FD /* AlegreyaSC-Bold.otf */,
-				38C72EBE249C37000053D5FD /* AlegreyaSC-BoldItalic.otf */,
-				38C72EBF249C37010053D5FD /* AlegreyaSC-Italic.otf */,
-				38C72EC0249C37010053D5FD /* AlegreyaSC-Regular.otf */,
+				38C72ED6249C3DBA0053D5FD /* Alegreya Font */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +87,36 @@
 				38C72EB1249C33B20053D5FD /* Assets.xcassets */,
 				38C72EB3249C33B20053D5FD /* LaunchScreen.storyboard */,
 				38C72EB6249C33B20053D5FD /* Info.plist */,
-				38C72EBC249C341A0053D5FD /* WunderlistSignInViewController.swift */,
+				38C72ED7249C3DEC0053D5FD /* View Controllers */,
 			);
 			path = Wunderlist2;
+			sourceTree = "<group>";
+		};
+		38C72ED6249C3DBA0053D5FD /* Alegreya Font */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EC7249C37010053D5FD /* Alegreya-Black.otf */,
+				38C72EC8249C37010053D5FD /* Alegreya-BlackItalic.otf */,
+				38C72EC4249C37010053D5FD /* Alegreya-Bold.otf */,
+				38C72EC1249C37010053D5FD /* Alegreya-BoldItalic.otf */,
+				38C72EC5249C37010053D5FD /* Alegreya-Italic.otf */,
+				38C72EC2249C37010053D5FD /* Alegreya-Regular.otf */,
+				38C72EC6249C37010053D5FD /* AlegreyaSC-Black.otf */,
+				38C72EC3249C37010053D5FD /* AlegreyaSC-BlackItalic.otf */,
+				38C72EC9249C37010053D5FD /* AlegreyaSC-Bold.otf */,
+				38C72EBE249C37000053D5FD /* AlegreyaSC-BoldItalic.otf */,
+				38C72EBF249C37010053D5FD /* AlegreyaSC-Italic.otf */,
+				38C72EC0249C37010053D5FD /* AlegreyaSC-Regular.otf */,
+			);
+			path = "Alegreya Font";
+			sourceTree = "<group>";
+		};
+		38C72ED7249C3DEC0053D5FD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38C72EBC249C341A0053D5FD /* WunderlistSignInViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +177,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C72ECA249C3C840053D5FD /* Alegreya-Bold.otf in Resources */,
+				38C72ECF249C3CA50053D5FD /* Alegreya-Regular.otf in Resources */,
 				38C72EB5249C33B20053D5FD /* LaunchScreen.storyboard in Resources */,
+				38C72ED1249C3CB10053D5FD /* AlegreyaSC-Black.otf in Resources */,
+				38C72ED3249C3CC10053D5FD /* AlegreyaSC-BoldItalic.otf in Resources */,
+				38C72ECB249C3C910053D5FD /* Alegreya-Black.otf in Resources */,
+				38C72ECC249C3C960053D5FD /* Alegreya-BlackItalic.otf in Resources */,
+				38C72ED4249C3CC40053D5FD /* AlegreyaSC-Italic.otf in Resources */,
 				38C72EB2249C33B20053D5FD /* Assets.xcassets in Resources */,
+				38C72ED5249C3CC70053D5FD /* AlegreyaSC-Regular.otf in Resources */,
 				38C72EB0249C33B10053D5FD /* Main.storyboard in Resources */,
+				38C72ED2249C3CBD0053D5FD /* AlegreyaSC-Bold.otf in Resources */,
+				38C72ECD249C3C9B0053D5FD /* Alegreya-BoldItalic.otf in Resources */,
+				38C72ECE249C3C9F0053D5FD /* Alegreya-Italic.otf in Resources */,
+				38C72ED0249C3CAC0053D5FD /* AlegreyaSC-BlackItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
